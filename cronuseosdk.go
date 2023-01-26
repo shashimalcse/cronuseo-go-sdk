@@ -1,4 +1,4 @@
-package cronuseosdk
+package cronuseogosdk
 
 import (
 	"bytes"

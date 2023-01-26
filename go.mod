@@ -1,3 +1,3 @@
-module github.com/shashimalcse/cronuseosdk
+module github.com/shashimalcse/cronuseogosdk
 
 go 1.19
