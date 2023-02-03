@@ -2,7 +2,7 @@
 
 ## The cronuseo go sdk for cronuseo authorization framework.
 
-This package provides a simple way to check permissions based on username, resource and permission string.
+This package provides a simple way to check permissions based on username, resource and permission.
 
 ### Features:
 - CheckUser function to check permissions with username
