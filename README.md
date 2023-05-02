@@ -25,16 +25,5 @@ if allow {
 }
 ```
 
-### Check multiple permisions
-```
-cronuseo := Cronuseo("http://localhost:8080/api/v1", "super", "g+6bFqAg+y1EswfWlxGeDSRh3+WlxsrFEBH30fK8HHg=")
-grantedScopes, err := cronuseo.CheckPermissions("shashimal", []string{"read", "create"}, "doc")
-if err != nil {
-  fmt.Println(err)
-}
-fmt.Println(grantedScopes)
-}
-```
-
 >Note: Before using this package in production, make sure you test it properly and also have a look at the possible errors and edge cases.
 
